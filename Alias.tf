@@ -1,4 +1,4 @@
-variable "projectis" {
+variable "projectid" { 
 default = "qwiklabs-gcp-03-095b7a8a84fc"
 }
 
