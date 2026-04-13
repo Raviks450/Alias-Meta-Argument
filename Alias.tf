@@ -63,7 +63,7 @@ resource "google_compute_instance" "vm3" {
     provider = google.asia
     name = "asia-vm"
     machine_type = "e2-medium"
-    zone = "asia-south1-a"
+    zone = "asia-south1-b"
 
    boot_disk {
     initialize_params{image = "debian-cloud/debian-11"}
