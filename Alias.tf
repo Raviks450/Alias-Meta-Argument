@@ -1,18 +1,21 @@
 provider "google" {
     project = var.projectid
     region = "us-central1"
+credentials = var.google_credentials
 }
 
 provider "google" {
     alias= "eu"
     project = var.projectid
     region = "europe-west1"
+credentials = var.google_credentials
 }
 
 provider "google" {
     alias= "asia"
     project = var.projectid
     region = "asia-south1"
+credentials = var.google_credentials
 }
 
 resource "google_compute_instance" "vm1" {
