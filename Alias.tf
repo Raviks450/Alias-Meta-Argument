@@ -1,3 +1,7 @@
+variable "projectis" {
+default = "qwiklabs-gcp-03-095b7a8a84fc"
+}
+
 provider "google" {
     project = var.projectid
     region = "us-central1"
