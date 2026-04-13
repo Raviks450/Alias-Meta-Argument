@@ -2,7 +2,11 @@ variable "projectid" {
 default = "qwiklabs-gcp-03-095b7a8a84fc"
 }
 
-variable "google_creds" {}
+variable "google_creds" {
+  description = "GCP Service Account JSON credentials"
+  type        = string
+  sensitive   = true
+}
 
 provider "google" {
     project = var.projectid
