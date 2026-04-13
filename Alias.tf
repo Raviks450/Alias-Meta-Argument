@@ -2,7 +2,7 @@ variable "projectid" {
 default = "qwiklabs-gcp-03-095b7a8a84fc"
 }
 
-google_creds" {}
+variable "google_creds" {}
 
 provider "google" {
     project = var.projectid
