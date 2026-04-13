@@ -1,4 +1,4 @@
-variable "projectid" {
+/*variable "projectid" {
     default = "qwiklabs-gcp-00-a7952a341236"
 }
 
@@ -17,7 +17,7 @@ provider "google" {
     alias= "asia"
     project = var.projectid
     region = "asia-south1"
-}
+}*/
 
 
 resource "google_compute_instance" "vm1" {
